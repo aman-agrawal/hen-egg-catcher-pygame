@@ -180,8 +180,8 @@ def gameloop():
        	curtime=time.time()
        	if curtime-prevtime>2:
        		prevtime=curtime
-       		# choice = random.randint(0, 4)
-       		choice = 0
+       		choice = random.randint(0, 4)
+       		# choice = 0
        		choice2 = random.randint(1, 10)
        		if 1<=choice2<=5 :
        			eggchoice=1
@@ -189,7 +189,6 @@ def gameloop():
        			eggchoice=2
        		else:
        			eggchoice=3
-       		eggchoice=1
 
 
         downvel = 10
